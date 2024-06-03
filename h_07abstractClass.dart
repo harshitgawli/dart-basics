@@ -1,5 +1,8 @@
 void main() {
-  Animals animal1 = Carnivor();
+  /* Animals animal = Animals();  we cannot create object of animal(abstract class)
+  but we can create object of its sub classes*/
+
+  Animals animal1 = Carnivor(); // abstraction example
   animal1.eat();
   animal1.sound();
   animal1.sleep();

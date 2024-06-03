@@ -19,7 +19,7 @@ class Cookie {
 
   // private variable are created by using _ at stating
   int _height = 25;
-  //this is a private variable which is not accessible outside this class
+  //this is a private variable which is not accessible outside this class also called encapsulation
   int _width = 10;
 
   //Getter in dart

@@ -58,4 +58,6 @@ class Cow extends Animal {}
 
 2 final class
 3 base class
+4 interface class // its not like other language interface because you can create its oobject but you have to implement the classes
+5 abstract interface class  // to make it other language like interface we need to make it abstract
 */

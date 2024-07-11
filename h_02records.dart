@@ -1,6 +1,9 @@
 import "dart:io";
 
 void main() {
+  final record = (4.5, 2, greetings: "hii", isAdult: false);
+  print(record);
+  print(record.isAdult);
   // var details = Student();
   // // all access tuple print(Student());
   // print(details);

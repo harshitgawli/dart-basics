@@ -18,8 +18,6 @@ void counter() {
   }, onError: (err) {
     print(err);
   });
-  Stream.periodic(Duration(seconds: 1), (val) {
-    print(val);
-  });
+  
   controller.close();
 }
